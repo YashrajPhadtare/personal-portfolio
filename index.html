@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio website of Your Name, an aspiring software developer.">
+  <title>Your Name | Aspiring Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home">YN<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#education">Education</a><a class="nav-contact" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span></span> OPEN TO OPPORTUNITIES</div>
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Your Name<span class="gradient-text">.</span></h1>
+        <h2>Aspiring Software Developer</h2>
+        <p class="hero-description">I’m a passionate fresher building a strong foundation in web development and programming. I enjoy solving problems, learning new technologies and turning ideas into practical digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-outline" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span>Based in India</span><i></i><span>Available for entry-level roles</span></div>
+      </div>
+      <div class="hero-card">
+        <div class="code-window">
+          <div class="window-top"><div class="window-dots"><b></b><b></b><b></b></div><span>developer.js</span></div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Your Name"</span>,
+  role: <span class="code-green">"Fresher"</span>,
+  skills: [
+    <span class="code-green">"HTML"</span>,
+    <span class="code-green">"CSS"</span>,
+    <span class="code-green">"JavaScript"</span>
+  ],
+  mindset: <span class="code-green">"Always learning"</span>,
+  hireable: <span class="code-blue">true</span>
+};
+
+<span class="code-purple">export default</span> developer;</code></pre>
+          <div class="code-footer"><span class="pulse"></span> Ready to build something great</div>
+        </div>
+        <div class="floating-tag tag-top">✦ Curious mind</div>
+        <div class="floating-tag tag-bottom">{" "} &lt; Keep learning /&gt;</div>
+      </div>
+    </section>
+
+    <section class="section-wrap section" id="about">
+      <div class="section-heading"><p class="eyebrow">A LITTLE INTRODUCTION</p><h2>About <span class="gradient-text">me</span></h2></div>
+      <div class="about-grid">
+        <div><p class="lead">I’m an enthusiastic learner who wants to grow into a capable IT professional.</p></div>
+        <div class="body-copy"><p>As a recent graduate / student in <strong>[Your Degree or Course]</strong>, I’m developing my technical and problem-solving skills through coursework and hands-on projects. I value consistency, teamwork and learning by building.</p><p>I'm looking for an entry-level opportunity where I can contribute, learn from experienced people and grow with real-world experience.</p></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section" id="skills">
+      <div class="section-heading"><p class="eyebrow">TOOLS I WORK WITH</p><h2>Technical <span class="gradient-text">skills</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Web Development</h3><p>HTML · CSS · JavaScript</p></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3>Programming</h3><p>Python · Java · [Add yours]</p></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>Database</h3><p>MySQL · [Add yours]</p></article>
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Tools</h3><p>Git · GitHub · VS Code</p></article>
+      </div>
+      <p class="note">Only list technologies you can confidently discuss in an interview.</p>
+    </section>
+
+    <section class="section-wrap section" id="projects">
+      <div class="section-heading"><p class="eyebrow">WHAT I'VE BUILT</p><h2>Featured <span class="gradient-text">projects</span></h2></div>
+      <div class="projects-grid">
+        <article class="project-card"><div class="project-top"><span class="project-number">01 / WEB</span><span class="project-symbol">↗</span></div><h3>Personal Portfolio Website</h3><p>A responsive personal website to introduce my profile, highlight technical skills and showcase projects for recruiters.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="#" aria-label="Add your portfolio project link">Add project link ↗</a></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">02 / APP</span><span class="project-symbol">↗</span></div><h3>Task Management App</h3><p>A simple task manager that helps users add, complete and organise everyday tasks. Explain your own features here.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="#" aria-label="Add your task app project link">Add project link ↗</a></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">03 / YOUR WORK</span><span class="project-symbol">↗</span></div><h3>[Your Best Project]</h3><p>Describe the problem, your solution, the features you developed and what you learned while building it.</p><div class="tags"><span>[Technology]</span><span>[Technology]</span></div><a class="project-link" href="#" aria-label="Add your project link">Add project link ↗</a></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section" id="education">
+      <div class="section-heading"><p class="eyebrow">MY ACADEMIC JOURNEY</p><h2><span class="gradient-text">Education</span></h2></div>
+      <article class="education-card"><div class="education-mark">EDU</div><div><h3>[Your Degree / Course]</h3><p>[College Name], [City]</p><span>[Start Year] — [Expected / Completion Year]</span></div><div class="education-score">[CGPA / %]</div></article>
+      <p class="note">Add your actual course, college, years and score. Remove the score if you prefer not to display it.</p>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <p class="eyebrow">HAVE AN OPPORTUNITY?</p><h2>Let's build something <span class="gradient-text">great.</span></h2>
+      <p>I’m open to entry-level opportunities, internships and meaningful collaborations. Feel free to reach out.</p>
+      <a class="button button-primary" href="mailto:your.email@example.com">Email me ↗</a>
+      <div class="social-links"><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a><a href="#" target="_blank" rel="noopener">Resume PDF ↗</a></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#home">YN<span>.</span></a><p>Designed & built by Your Name · <span id="year"></span></p><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
